@@ -1,0 +1,23 @@
+.title-h1 {
+  color: $white;
+  font-size: 55px;
+  font-weight: 800;
+}
+
+.title-h2 {
+  color: $white;
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+@media (max-width: 640px) {
+
+  .title-h1 {
+    font-size: 42px;
+  }
+
+  .title-h2 {
+    font-size: 32px;
+  }
+}

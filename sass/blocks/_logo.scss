@@ -1,0 +1,13 @@
+.logo {
+  display: flex;
+  align-items: center;
+  color: $blue;
+  gap: 15px;
+  font-size: 22px;
+}
+
+@media (max-width: 420px) {
+  .logo {
+    font-size: 18px;
+  }
+}

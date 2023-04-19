@@ -1,0 +1,180 @@
+.footer {
+  background: linear-gradient(to bottom, #1E1E2F, #313146);
+  padding-top: 77px;
+  padding-bottom: 150px;
+}
+
+.footer__nav {
+  display: flex;
+  justify-content: space-between;
+  gap: 7px;
+}
+
+.footer__adress {
+  width: 25%;
+}
+
+.footer__adress-logo {
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: $blue;
+  font-weight: 600;
+}
+
+.footer__text {
+  margin-bottom: 37px;
+  font-size: 14px;
+  color: $white;
+  font-weight: 450;
+}
+
+.footer__adress-list {}
+
+.footer__adress-item {
+  display: flex;
+  font-size: 14px;
+  color: $white;
+  font-weight: 500;
+
+  &:not(:last-child) {
+    margin-bottom: 20px;
+  }
+
+  img {
+    margin-right: 9px;
+  }
+}
+
+.footer__middle {
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  gap: 3px;
+}
+
+
+.footer_info {}
+
+.footer__title {
+  font-size: 16px;
+  color: $white;
+  font-weight: 500;
+  margin-bottom: 32px;
+}
+
+.footer__list {}
+
+.footer__item {
+  font-size: 14px;
+  color: $white;
+  font-weight: 450;
+
+  &:not(:last-child) {
+    margin-bottom: 23px;
+  }
+}
+
+.footer__menu {}
+
+.footer__links {}
+
+.footer__about {
+  width: 25%;
+}
+
+.footer__about-link {
+  font-size: 14px;
+  color: $white;
+  font-weight: 500;
+}
+
+.footer__about-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 175px;
+  margin-bottom: 50px;
+  margin-top: 21px;
+}
+
+.footer__about-item {}
+
+.footer__about-lang {
+  font-size: 14px;
+  color: $white;
+  font-weight: 500;
+}
+
+@media (max-width: 820px) {
+
+  .footer__nav {
+    flex-direction: column;
+  }
+
+  .footer__adress {
+    margin: 0 auto;
+    width: 90%;
+    margin-bottom: 25px;
+  }
+
+  .footer__middle {
+    text-align: center;
+    margin: 0 auto;
+    order: -1;
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+  .footer__about {
+    margin: 0 auto;
+    width: 90%;
+  }
+
+}
+
+@media (max-width: 640px) {
+  .footer {
+    padding-top: 40px;
+    padding-bottom: 60px;
+  }
+
+  .footer__title {
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 18px;
+  }
+
+  .footer__item {
+    font-size: 12px;
+    font-weight: 450;
+
+    &:not(:last-child) {
+      margin-bottom: 17px;
+    }
+  }
+
+}
+
+@media (max-width: 420px) {
+  .footer {
+    padding-top: 20px;
+    padding-bottom: 30px;
+  }
+
+  .footer__title {
+    font-size: 13px;
+    font-weight: 450;
+    margin-bottom: 32px;
+  }
+
+  .footer__middle {
+    gap: 6px;
+  }
+
+  .footer__item {
+    font-size: 10px;
+    font-weight: 400;
+  }
+
+
+}
